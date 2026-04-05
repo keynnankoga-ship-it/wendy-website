@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>To and For A Gal Toto😌</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-messaging-compat.js"></script>
+
+</head>
+
+<body>
+
+<nav>
+<div class="logo">A Love Diary</div>
+
+<div>
+<a href="#home">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#dates">Dates</a>
+<a href="#music">Music</a>
+<a href="#spotify">Spotify</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="left-img">
+<img src="hero1.jpeg">
+</div>
+
+<div class="center-text">
+
+<strong>
+WENDY <br>
+JABER IS JABER
+</strong>
+
+<p class="subtitle">
+A small corner of the internet dedicated to you!!❤️
+</p>
+
+</div>
+
+<div class="right-img">
+<img src="hero2.jpeg">
+</div>
+
+</section>
+
+<section id="home">
+
+<h2>Home</h2>
+
+<div class="home">
+
+<p>
+I’ve been thinking about how to say this without sounding like a malfunctioning romantic comedy character… but unfortunately that ship has already sailed, crashed into the harbor, and is now on fire.
+<br><br>This website is dedicated to a friend I met on Snapchat—someone who started as just a random connection but slowly became an important part of my life. <br><br>Even though we didn’t meet in the usual way, our conversations, shared moments, and the time we’ve spent getting to know each other have meant a lot to me. It’s funny how someone you’ve never met in person can still make your day better, make you laugh, and be there when you need it.<br><br>This dedication is a small way of appreciating that connection. It may not be a traditional friendship, but it’s real in its own way, and it matters.
+</p>
+
+<section class="daily-affirmation">
+<h2>❤️ Affirmation of the Day</h2>
+<p id="affirmation-text">Loading...</p>
+</section>
+
+<div id="subscription-section">
+  <h3>Subscribe for Daily Inspiration ❤️</h3>
+  <form id="subscriptionForm">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" />
+    <input type="tel" name="phone" placeholder="Your Phone Number" />
+    <button type="submit">Subscribe</button>
+  </form>
+  <p id="subscriptionMessage"></p>
+</div>
+
+</section>
+
+<section id="songOfDay">
+<h2>❤️ Song of the Day</h2>
+<div id="dailySong"></div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div id="photoGallery"></div>
+</section>
+
+<section id="dates">
+<h2>Date Ideas</h2>
+<div id="dateIdeas"></div>
+</section>
+
+<section id="music">
+<h2>Songs That Remind Me of You</h2>
+<p>I'll be Adding anytime I find One. For now, these start. Have a good time listening to them 😁</p>
+<div id="playlist"></div>
+</section>
+
+<section id="spotify">
+<h2>My Spotify Playlists For You</h2>
+<div class="spotify-grid">
+<iframe src="https://open.spotify.com/embed/playlist/3zYoH7v0aNLDwDkAQBKMmT"></iframe>
+<iframe src="https://open.spotify.com/embed/playlist/2cG9mSD5rZ5NNZsoUe6zoI"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0jIJQfUQVbhXXlSPuNWmmH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7MUjSnVaqemxj5Y3cbuJOt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/68ywt93KxWrZhkQJd2s0c0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/00mhQLVEpz99hH7sIT8Ij5?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1amdpe8BTsa9EHoviHtTqf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0fQYgElKvTjYRF5eVPh5y3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+</section>
+
+<div id="lightbox">
+<img id="lightbox-img">
+</div>
+
+<script src="main.js"></script>
+<script src="notifications.js"></script>
+
+<!-- =========================
+     SUBSCRIPTION SCRIPT
+========================= -->
+<script>
+document.getElementById("subscriptionForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const name = e.target.name.value.trim();
+  const email = e.target.email.value.trim();
+  const phone = e.target.phone.value.trim();
+  const messageEl = document.getElementById("subscriptionMessage");
+
+  if (!email && !phone) {
+    messageEl.style.color = "red";
+    messageEl.innerText = "Please provide an email or phone number to subscribe.";
+    return;
+  }
+
+  try {
+    const res = await fetch("/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, phone })
+    });
+
+    const data = await res.json();
+    if (res.ok) {
+      messageEl.style.color = "green";
+      messageEl.innerText = data.message || "Subscribed successfully! ❤️";
+      e.target.reset();
+    } else {
+      messageEl.style.color = "red";
+      messageEl.innerText = data.error || "Subscription failed 😢";
+    }
+  } catch (err) {
+    messageEl.style.color = "red";
+    messageEl.innerText = "Something went wrong 😢";
+    console.error(err);
+  }
+});
+</script>
+
+<footer>
+<p>From I Koyo To You!</p>
+<p>© Koyo | 2026 | All rights reserved</p>
+</footer>
+
+</body>
+</html>

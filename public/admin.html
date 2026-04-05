@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR SAME AS USER UI -->
+  <nav>
+    <a href="/">Home</a>
+    <a href="#music">Music</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#dates">Date Ideas</a>
+    <a href="#playlists">Playlists</a>
+  </nav>
+
+  <!-- LOGIN -->
+  <div id="login" style="padding:2rem; text-align:center;">
+    <h2>Admin Login</h2>
+    <input id="password" type="password" placeholder="Admin password" style="padding:0.5rem; width:200px;">
+    <button onclick="login()" style="padding:0.5rem 1rem; margin-left:10px;">Login</button>
+  </div>
+
+  <!-- ADMIN PANEL -->
+  <div id="panel" style="display:none; padding:2rem;">
+
+    <!-- SONGS SECTION -->
+    <section id="music">
+      <h2>Music</h2>
+      <div class="horizontal">
+        <!-- Add Song Card -->
+        <div class="song-item add-card">
+          <input id="title" placeholder="Song title">
+          <input id="artist" placeholder="Artist">
+          <input id="audio" placeholder="/music/song.mp3">
+          <input id="cover" placeholder="/music/cover.jpg">
+          <button onclick="addSong()">Add Song</button>
+        </div>
+        <!-- Songs loaded here -->
+        <div id="songs"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="horizontal">
+        <!-- Add Photo Card -->
+        <div class="gallery-item add-card">
+          <input id="photoUrl" placeholder="/photos/photo.jpg">
+          <button onclick="addPhoto()">Add Photo</button>
+        </div>
+        <!-- Photos loaded here -->
+        <div id="galleryAdmin"></div>
+      </div>
+    </section>
+
+    <!-- DATE IDEAS -->
+    <section id="dates">
+      <h2>Date Ideas</h2>
+      <div class="horizontal">
+        <!-- Add Date Idea Card -->
+        <div class="item add-card">
+          <input id="dateTitle" placeholder="Title">
+          <input id="dateDesc" placeholder="Description">
+          <button onclick="addDate()">Add Date Idea</button>
+        </div>
+        <!-- Date ideas loaded here -->
+        <div id="dateIdeasAdmin"></div>
+      </div>
+    </section>
+
+    <!-- PLAYLISTS -->
+    <section id="playlists">
+      <h2>Playlists</h2>
+      <div class="horizontal">
+        <!-- Add Playlist Card -->
+        <div class="item add-card">
+          <input id="playlistEmbed" placeholder="Paste embed iframe">
+          <button onclick="addPlaylist()">Add Playlist</button>
+        </div>
+        <!-- Playlists loaded here -->
+        <div id="playlistsAdmin"></div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBERS -->
+    <section>
+      <h2>Subscribers</h2>
+      <button onclick="loadSubs()">View Subscribers</button>
+      <ul id="subs" style="margin-top:1rem;"></ul>
+    </section>
+
+  </div>
+
+  <script src="admin.js"></script>
+
+</body>
+</html>

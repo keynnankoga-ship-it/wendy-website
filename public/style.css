@@ -1,0 +1,370 @@
+/* =========================
+RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+  color: #000;
+  line-height: 1.6;
+}
+
+/* =========================
+NAVBAR
+========================= */
+nav {
+  position: sticky;
+  top: 0;
+  background: #F5F0E1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+/* =========================
+HERO
+========================= */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.hero img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* =========================
+SECTION TITLES
+========================= */
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+/* =========================
+HOME
+========================= */
+.home {
+  max-width: 900px;
+  margin: auto;
+  background: #F5F0E1;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+DAILY AFFIRMATION
+========================= */
+#daily-affirmation, .daily-affirmation {
+  background: #E5E5E5;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* =========================
+GALLERY
+========================= */
+.gallery, #photoGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.gallery img, #photoGallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.gallery img:hover, #photoGallery img:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+LIGHTBOX
+========================= */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 15px;
+}
+
+/* =========================
+DATE IDEAS
+========================= */
+#dateIdeas, #dateIdeasAdmin {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.date-card {
+  background: #F5F0E1;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.date-card h3 {
+  margin-bottom: 8px;
+}
+
+.date-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: 5px;
+  margin-top: .5rem;
+}
+
+.date-photos img {
+  height: 70px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* =========================
+MUSIC
+========================= */
+#playlist, #songs, #dailySong {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.song {
+  background: #E5E5E5;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song img {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.song audio {
+  width: 180px;
+  margin-top: 10px;
+}
+
+/* =========================
+SPOTIFY
+========================= */
+.spotify-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.spotify-grid iframe {
+  width: 100%;
+  height: 380px;
+  border-radius: 15px;
+  border: none;
+}
+
+/* =========================
+ADMIN DASHBOARD HORIZONTAL LAYOUT
+========================= */
+#songs, #galleryAdmin, #dateIdeasAdmin, #playlistsAdmin {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scroll-behavior: smooth;
+}
+
+.song-item, .gallery-item, .item {
+  background: #F5F0E1;
+  border-radius: 15px;
+  padding: 1rem;
+  flex: 0 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.song-item img, .gallery-item img, .item img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.song-item audio, .item audio {
+  width: 180px;
+  margin-top: 8px;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+#songs::-webkit-scrollbar,
+#galleryAdmin::-webkit-scrollbar,
+#dateIdeasAdmin::-webkit-scrollbar,
+#playlistsAdmin::-webkit-scrollbar {
+  height: 8px;
+}
+
+#songs::-webkit-scrollbar-thumb,
+#galleryAdmin::-webkit-scrollbar-thumb,
+#dateIdeasAdmin::-webkit-scrollbar-thumb,
+#playlistsAdmin::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+/* =========================
+FOOTER
+========================= */
+footer {
+  background: #D3D3D3;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/* =========================
+MOBILE
+========================= */
+@media(max-width:768px) {
+
+  .hero {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .hero img {
+    width: 200px;
+  }
+
+  .gallery, #photoGallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #playlist, #songs, #dailySong {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .date-card {
+    width: 90%;
+  }
+
+  .spotify-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .song-item img,
+  .gallery-item img,
+  .item img,
+  .song-item audio,
+  .item audio {
+    width: 140px;
+  }
+}
+ #playlist{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+}
+
+.song{
+text-align:center;
+}
+
+.song audio{
+width:100%;
+margin-top:10px;
+}
+
+#photoGallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+#photoGallery img{
+width:100%;
+border-radius:10px;
+cursor:pointer;
+}

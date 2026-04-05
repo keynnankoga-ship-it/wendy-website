@@ -1,0 +1,850 @@
+[{
+  "_id": {
+    "$oid": "69ad64fae39a83d5fe2ab54b"
+  },
+  "title": "Shivers",
+  "artist": "Ed Sheeran",
+  "reason": "This song reminds me of how you make me feel",
+  "file": "/music/shivers.mp3",
+  "cover": "/music/shivers.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6566e39a83d5fe2ab54d"
+  },
+  "title": "Plans",
+  "artist": "Iyanya",
+  "reason": "I have plans for us!",
+  "file": "/music/plans.mp3",
+  "cover": "/music/plans.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad65aee39a83d5fe2ab54f"
+  },
+  "title": "Stand By You",
+  "artist": "Pheelz",
+  "reason": "I'll always be by your side",
+  "file": "/music/standbyyou.mp3",
+  "cover": "/music/standbyyou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6627e39a83d5fe2ab551"
+  },
+  "title": "Spell",
+  "artist": "Chike",
+  "reason": "Ni kama umeniwekea kamote😭😫😫",
+  "file": "/music/spell.mp3",
+  "cover": "/music/spell.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6682e39a83d5fe2ab553"
+  },
+  "title": "Love Made Me Do It",
+  "artist": "Jae5, BNXN",
+  "reason": "It surely can't be anything else",
+  "file": "/music/lovemademedoit.mp3",
+  "cover": "/music/lovemademedoit.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad672ee39a83d5fe2ab555"
+  },
+  "title": "Ovami",
+  "artist": "Oxlade,Flavour",
+  "reason": "You've taken all over me",
+  "file": "/music/ovami.mp3",
+  "cover": "/music/ovami.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad67a7e39a83d5fe2ab557"
+  },
+  "title": "Navigate",
+  "artist": "Brandy Maina,Ajay",
+  "reason": "This game called life, I want us to navigate it together",
+  "file": "/music/navigate.mp3",
+  "cover": "/music/navigate.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad67f0e39a83d5fe2ab559"
+  },
+  "title": "Nyaduse",
+  "artist": "KODONGKLAN",
+  "reason": "You make me smile alot",
+  "file": "/music/nyaduse.mp3",
+  "cover": "/music/nyaduse.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad684ae39a83d5fe2ab55b"
+  },
+  "title": "Olivia",
+  "artist": "Mutoriah",
+  "reason": "It reminds me how pretty you are",
+  "file": "/music/olivia.mp3",
+  "cover": "/music/olivia.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6885e39a83d5fe2ab55d"
+  },
+  "title": "For Lovers",
+  "artist": "Hornsphere,Mutoriah",
+  "reason": "It reminds me that loving someone means loving every part of them",
+  "file": "/music/forlovers.mp3",
+  "cover": "/music/forlovers.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad68ede39a83d5fe2ab55f"
+  },
+  "title": "Kesho Kutwa",
+  "artist": "Kethan",
+  "reason": "Watch me choose you Everyday and Allday",
+  "file": "/music/keshokutwa.mp3",
+  "cover": "/music/keshokutwa.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6936e39a83d5fe2ab561"
+  },
+  "title": "It's You",
+  "artist": "Fancy Fingers,Njerae",
+  "reason": "Something about you is so damn addictive",
+  "file": "/music/it'syou.mp3",
+  "cover": "/music/it'syou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad69aae39a83d5fe2ab563"
+  },
+  "title": "Hawataweza",
+  "artist": "Wanavokali",
+  "reason": "What God has put together no man can put asander and other stories",
+  "file": "/music/hawataweza.mp3",
+  "cover": "/music/hawataweza.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad69f4e39a83d5fe2ab565"
+  },
+  "title": "For Real",
+  "artist": "Watendawili",
+  "reason": "I'm serious about you in all it's manefestations",
+  "file": "/music/forreal.mp3",
+  "cover": "/music/forreal.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6a3ce39a83d5fe2ab567"
+  },
+  "title": "Milele",
+  "artist": "Elani",
+  "reason": "This is to Forever Plus a day!",
+  "file": "/music/milele.mp3",
+  "cover": "/music/milele.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6a9ae39a83d5fe2ab569"
+  },
+  "title": "Sema Milele",
+  "artist": "Gilad",
+  "reason": "Na useme Milele btw😁",
+  "file": "/music/semamilele.mp3",
+  "cover": "/music/semamilele.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6ad4e39a83d5fe2ab56b"
+  },
+  "title": "Perfect Design",
+  "artist": "Nyashinski",
+  "reason": "This song reminds me of how perfect you are to me",
+  "file": "/music/perfectdesign.mp3",
+  "cover": "/music/perfectdesign.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6b48e39a83d5fe2ab56d"
+  },
+  "title": "Aus Nyamombasa",
+  "artist": "Watendawili",
+  "reason": "My Jaber😍",
+  "file": "/music/ausnyamombasa.mp3",
+  "cover": "/music/ausnyamombasa.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6b91e39a83d5fe2ab56f"
+  },
+  "title": "Chikwere",
+  "artist": "Bien",
+  "reason": "I hope you're ready....Get ready",
+  "file": "/music/chikwere.mp3",
+  "cover": "/music/chikwere.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6bfae39a83d5fe2ab571"
+  },
+  "title": "Dawa-Remix",
+  "artist": "Elijah Kitaka, Bien, Savara",
+  "reason": "On a dosage of *Forever",
+  "file": "/music/dawaremix.mp3",
+  "cover": "/music/dawaremix.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6c4ee39a83d5fe2ab573"
+  },
+  "title": "My Only",
+  "artist": "NSG",
+  "reason": "Even gangsters show love you know",
+  "file": "/music/myonly.mp3",
+  "cover": "/music/myonly.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6ca6e39a83d5fe2ab575"
+  },
+  "title": "Kautamu Fulani",
+  "artist": "Bensoul,V-Be",
+  "reason": "Just because you're sweet and you make me feel good",
+  "file": "/music/kautamufulani.mp3",
+  "cover": "/music/kautamufulani.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6ceae39a83d5fe2ab577"
+  },
+  "title": "Ni Wewe",
+  "artist": "Steph Kapela, Dela",
+  "reason": "This song reminds me that it's just you and you only",
+  "file": "/music/niwewe.mp3",
+  "cover": "/music/niwewe.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6d28e39a83d5fe2ab579"
+  },
+  "title": "Legalize",
+  "artist": "Mr Eazi",
+  "reason": "We make it legal, ama??",
+  "file": "/music/legalize.mp3",
+  "cover": "/music/legalize.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6d6ee39a83d5fe2ab57b"
+  },
+  "title": "Like",
+  "artist": "Iyanya, Davido, Kizz Daniel",
+  "reason": "Jam to this knowing I like you like a whole lot",
+  "file": "/music/like.mp3",
+  "cover": "/music/like.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6de8e39a83d5fe2ab57d"
+  },
+  "title": "Could This Be Love",
+  "artist": "Nasboi, Chike",
+  "reason": "Ama wewe unaonaje? vaa specks ndio uone pia😁😁",
+  "file": "/music/couldthisbelove.mp3",
+  "cover": "/music/couldthisbelove.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6e39e39a83d5fe2ab57f"
+  },
+  "title": "Sor Mi Mu",
+  "artist": "Gyakie, Bisa Kdei",
+  "reason": "From Me To You",
+  "file": "/music/sormimu.mp3",
+  "cover": "/music/sormimu.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6e6fe39a83d5fe2ab581"
+  },
+  "title": "Majesty",
+  "artist": "Peruzzi",
+  "reason": "You're royal",
+  "file": "/music/majesty.mp3",
+  "cover": "/music/majesty.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6e9be39a83d5fe2ab583"
+  },
+  "title": "Kesi Baadae",
+  "artist": "Nviiri",
+  "reason": "Wapende Wasipende!",
+  "file": "/music/kesibaadae.mp3",
+  "cover": "/music/kesibaadae.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6f1fe39a83d5fe2ab585"
+  },
+  "title": "Kpa",
+  "artist": "Dremo, Davido",
+  "reason": "Just Listen",
+  "file": "/music/kpa.mp3",
+  "cover": "/music/kpa.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6f51e39a83d5fe2ab587"
+  },
+  "title": "True",
+  "artist": "Mayorkun, Davido",
+  "reason": "Ofcos",
+  "file": "/music/true.mp3",
+  "cover": "/music/true.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6fa3e39a83d5fe2ab589"
+  },
+  "title": "Ride For You",
+  "artist": "Phyno, Davido",
+  "reason": "You and I",
+  "file": "/music/rideforyou.mp3",
+  "cover": "/music/rideforyou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad6fe2e39a83d5fe2ab58b"
+  },
+  "title": "Target You",
+  "artist": "2Baba, Symeca",
+  "reason": "I'm in pursuit of you Jaber",
+  "file": "/music/targetyou.mp3",
+  "cover": "/music/targetyou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad701de39a83d5fe2ab58d"
+  },
+  "title": "4Dayz",
+  "artist": "Kizz Daniel",
+  "reason": "This song reminds me of how I want to be with you",
+  "file": "/music/4dayz.mp3",
+  "cover": "/music/4dayz.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7060e39a83d5fe2ab58f"
+  },
+  "title": "Bebi Bebi",
+  "artist": "Atemi",
+  "reason": "I can't stop thinking about you",
+  "file": "/music/bebibebi.mp3",
+  "cover": "/music/bebibebi.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad70b7e39a83d5fe2ab591"
+  },
+  "title": "Ayee",
+  "artist": "Kizz Daniel",
+  "reason": "A gent just wants you and to Love you",
+  "file": "/music/ayee.mp3",
+  "cover": "/music/ayee.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7104e39a83d5fe2ab593"
+  },
+  "title": "Only One",
+  "artist": "Peruzzi",
+  "reason": "You're my jaber",
+  "file": "/music/onlyone.mp3",
+  "cover": "/music/onlyone.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7147e39a83d5fe2ab595"
+  },
+  "title": "Champion Lover",
+  "artist": "Peruzzi, Burna Boy",
+  "reason": "I'll win you over",
+  "file": "/music/championlover.mp3",
+  "cover": "/music/championlover.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad718ae39a83d5fe2ab597"
+  },
+  "title": "Move",
+  "artist": "Reekado Banks, Vanessa Mdee",
+  "reason": "We shall and should gravitate towards each other",
+  "file": "/music/move.mp3",
+  "cover": "/music/move.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad71c4e39a83d5fe2ab599"
+  },
+  "title": "Green Light",
+  "artist": "Cuppy, Tekno",
+  "reason": "I want to see you go...",
+  "file": "/music/greenlight.mp3",
+  "cover": "/music/greenlight.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad720be39a83d5fe2ab59b"
+  },
+  "title": "Odo-Remix",
+  "artist": "KiDi, Mayorkun, Davido",
+  "reason": "I bless the day I found you",
+  "file": "/music/odoremix.mp3",
+  "cover": "/music/odoremix.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7250e39a83d5fe2ab59d"
+  },
+  "title": "Flora My Flawa",
+  "artist": "Davido",
+  "reason": "The only Rose I see",
+  "file": "/music/floramyflawa.mp3",
+  "cover": "/music/floramyflawa.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7286e39a83d5fe2ab59f"
+  },
+  "title": "Nakulove",
+  "artist": "King Kaka, Pascal Tokodi",
+  "reason": "Some Ghetto love",
+  "file": "/music/nakulove.mp3",
+  "cover": "/music/nakulove.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad72c3e39a83d5fe2ab5a1"
+  },
+  "title": "Marry You Twice",
+  "artist": "Charisma",
+  "reason": "If only My Heart had a Voice",
+  "file": "/music/marryyoutwice.mp3",
+  "cover": "/music/marryyoutwice.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad72f6e39a83d5fe2ab5a3"
+  },
+  "title": "Like You",
+  "artist": "Ochiko, Kinoti",
+  "reason": "Sentimental",
+  "file": "/music/likeyou.mp3",
+  "cover": "/music/likeyou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad734ce39a83d5fe2ab5a5"
+  },
+  "title": "I Gatchu",
+  "artist": "Okello Max, Bien",
+  "reason": "💯",
+  "file": "/music/igatchu.mp3",
+  "cover": "/music/igatchu.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7384e39a83d5fe2ab5a7"
+  },
+  "title": "Same Page",
+  "artist": "Bensoul, Muthaka",
+  "reason": "Are we?",
+  "file": "/music/samepage.mp3",
+  "cover": "/music/samepage.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad73cfe39a83d5fe2ab5a9"
+  },
+  "title": "Unavyonipenda",
+  "artist": "Charisma, Mbithi",
+  "reason": "In a manner of speaking...wow!",
+  "file": "/music/unavyonipenda.mp3",
+  "cover": "/music/unavyonipenda.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad73f9e39a83d5fe2ab5ab"
+  },
+  "title": "Medicine",
+  "artist": "Bensoul",
+  "reason": "Again",
+  "file": "/music/medicine.mp3",
+  "cover": "/music/medicine.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad742ae39a83d5fe2ab5ad"
+  },
+  "title": "Favorite Song",
+  "artist": "Bensoul",
+  "reason": "I love your Voice",
+  "file": "/music/favoritesong.mp3",
+  "cover": "/music/favoritesong.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7462e39a83d5fe2ab5af"
+  },
+  "title": "Lesotho",
+  "artist": "Nviiri, Ray Gee",
+  "reason": "And....",
+  "file": "/music/lesotho.mp3",
+  "cover": "/music/lesotho.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7490e39a83d5fe2ab5b1"
+  },
+  "title": "Sweet Love",
+  "artist": "Wahu",
+  "reason": "All I want to give",
+  "file": "/music/sweetlove.mp3",
+  "cover": "/music/sweetlove.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad74cae39a83d5fe2ab5b3"
+  },
+  "title": "Take it Slow",
+  "artist": "ZIKKI, Jaguar",
+  "reason": "Time and Tide Waits for no man btw",
+  "file": "/music/takeitslow.mp3",
+  "cover": "/music/takeitslow.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7509e39a83d5fe2ab5b5"
+  },
+  "title": "Doorstep",
+  "artist": "Bensoul",
+  "reason": "Liwe Liwalo",
+  "file": "/music/doorstep.mp3",
+  "cover": "/music/doorstep.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7569e39a83d5fe2ab5b7"
+  },
+  "title": "Feeling",
+  "artist": "Nameless, Wahu",
+  "reason": "I love this feeling",
+  "file": "/music/feeling.mp3",
+  "cover": "/music/feeling.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad75aee39a83d5fe2ab5b9"
+  },
+  "title": "Crazy Love",
+  "artist": "Flavour, Yemi Alade",
+  "reason": "Just spells",
+  "file": "/music/crazylove.mp3",
+  "cover": "/music/crazylove.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad760be39a83d5fe2ab5bb"
+  },
+  "title": "Ololufe",
+  "artist": "Flavour, Chidinma",
+  "reason": "Mine!",
+  "file": "/music/ololufe.mp3",
+  "cover": "/music/ololufe.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad768be39a83d5fe2ab5bd"
+  },
+  "title": "Mapenzi Ya Sinema",
+  "artist": "We Are Nubia",
+  "reason": "The Oldies Type of Love",
+  "file": "/music/mapenziyasinema.mp3",
+  "cover": "/music/mapenziyasinema.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad76dde39a83d5fe2ab5bf"
+  },
+  "title": "Omukwano",
+  "artist": "Joshua Baraka, Winnie Nwagi",
+  "reason": "Buganda Love",
+  "file": "/music/omukwano.mp3",
+  "cover": "/music/omukwano.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad771ce39a83d5fe2ab5c1"
+  },
+  "title": "Kitenge",
+  "artist": "Nviiri",
+  "reason": "One day😅",
+  "file": "/music/kitenge.mp3",
+  "cover": "/music/kitenge.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7779e39a83d5fe2ab5c3"
+  },
+  "title": "Tamu",
+  "artist": "Zaituni",
+  "reason": "Nothing as sweet...",
+  "file": "/music/tamu.mp3",
+  "cover": "/music/tamu.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad77b6e39a83d5fe2ab5c5"
+  },
+  "title": "Lucky Now",
+  "artist": "Jux, Bien",
+  "reason": "We are, yee!",
+  "file": "/music/luckynow.mp3",
+  "cover": "/music/luckynow.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad77f2e39a83d5fe2ab5c7"
+  },
+  "title": "Aibu",
+  "artist": "Bensoul, Bien",
+  "reason": "Snapchat😅",
+  "file": "/music/aibu.mp3",
+  "cover": "/music/aibu.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7836e39a83d5fe2ab5c9"
+  },
+  "title": "Wewe",
+  "artist": "Mutoriah, Njerae",
+  "reason": "Always, it's you...",
+  "file": "/music/wewemutoriah.mp3",
+  "cover": "/music/wewemutoriah.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad7876e39a83d5fe2ab5cb"
+  },
+  "title": "Streets",
+  "artist": "Dwin The Stoic",
+  "reason": "Ain't for the streets",
+  "file": "/music/streets.mp3",
+  "cover": "/music/streets.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad78e0e39a83d5fe2ab5cf"
+  },
+  "title": "Sema",
+  "artist": "Kethan, Bridgette Blue",
+  "reason": "Roho ikisema imesema",
+  "file": "/music/semakethan.mp3",
+  "cover": "/music/semakethan.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad794ae39a83d5fe2ab5d1"
+  },
+  "title": "My Only Baby",
+  "artist": "Ric Hassani",
+  "reason": "I had to",
+  "file": "/music/myonlybaby.mp3",
+  "cover": "/music/myonlybaby.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9e6fe39a83d5fe2ab5d3"
+  },
+  "title": "Ordinary",
+  "artist": "Alex Warren",
+  "reason": "It reminds me of Our Time Together and Future Plans",
+  "file": "/music/ordinary.mp3",
+  "cover": "/music/ordinary.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9eaae39a83d5fe2ab5d5"
+  },
+  "title": "True Love",
+  "artist": "Bien",
+  "reason": "It reminds me of growing old with someone you love",
+  "file": "/music/truelovebien.mp3",
+  "cover": "/music/truelovebien.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9ef2e39a83d5fe2ab5d7"
+  },
+  "title": "True Love",
+  "artist": "Charisma",
+  "reason": "I want us, I want you!",
+  "file": "/music/truelovecharisma.mp3",
+  "cover": "/music/truelovecharisma.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9f50e39a83d5fe2ab5d9"
+  },
+  "title": "Disemba",
+  "artist": "Mutoriah",
+  "reason": "You're my Miss Disemba",
+  "file": "/music/disemba.mp3",
+  "cover": "/music/disemba.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9f88e39a83d5fe2ab5db"
+  },
+  "title": "Colors",
+  "artist": "Njerae, Bensoul",
+  "reason": "You",
+  "file": "/music/colors.mp3",
+  "cover": "/music/colors.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ad9feee39a83d5fe2ab5dd"
+  },
+  "title": "Constantly",
+  "artist": "Boy Spice, Joel ",
+  "reason": "...",
+  "file": "/music/constantly.mp3",
+  "cover": "/music/constantly.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada061e39a83d5fe2ab5df"
+  },
+  "title": "Everyday",
+  "artist": "Fireboy DML",
+  "reason": "I'm one phone call away",
+  "file": "/music/everyday.mp3",
+  "cover": "/music/everyday.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada0b9e39a83d5fe2ab5e1"
+  },
+  "title": "Hard To Find",
+  "artist": "Chike",
+  "reason": "Even the heavens know there's no one like you",
+  "file": "/music/hardtofind.m4a",
+  "cover": "/music/hardtofind.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada0fbe39a83d5fe2ab5e3"
+  },
+  "title": "I Go Nowhere",
+  "artist": "Dwin The Stoic",
+  "reason": "Old and Grey it is",
+  "file": "/music/igonowhere.mp3",
+  "cover": "/music/igonowhere.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada155e39a83d5fe2ab5e5"
+  },
+  "title": "Natulizana",
+  "artist": "Diamond Platnumz",
+  "reason": "Things like  that. Peace and Tranzquility in this",
+  "file": "/music/natulizana.mp3",
+  "cover": "/music/natulizana.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada19de39a83d5fe2ab5e7"
+  },
+  "title": "Siri",
+  "artist": "Fena Gitu",
+  "reason": "A Journey",
+  "file": "/music/siri.mp3",
+  "cover": "/music/siri.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada1fee39a83d5fe2ab5e9"
+  },
+  "title": "The Night We Met",
+  "artist": "Lord Huron",
+  "reason": "Never been star struck like that in my life. True impeccable beauty",
+  "file": "/music/nightwemet.mp3",
+  "cover": "/music/nightwemet.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada24ce39a83d5fe2ab5eb"
+  },
+  "title": "Telenovela",
+  "artist": "Kidum, Bensoul, Cedo",
+  "reason": "A Love Story worth writing about!",
+  "file": "/music/telenovela.mp3",
+  "cover": "/music/telenovela.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada28fe39a83d5fe2ab5ed"
+  },
+  "title": "Unanifaa",
+  "artist": "Iyanii",
+  "reason": "Yes you do",
+  "file": "/music/unanifaa.mp3",
+  "cover": "/music/unanifaa.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69ada324e39a83d5fe2ab5ef"
+  },
+  "title": "I No Give Up on You",
+  "artist": "Mr Eazi",
+  "reason": "Niko na wewe bumper to bumper, sako kwa bako!",
+  "file": "/music/inogogiveuponyou.mp3",
+  "cover": "/music/inogogiveuponyou.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69adc5f2e39a83d5fe2ab5f1"
+  },
+  "title": "Knack Am",
+  "artist": "Yemi Alade",
+  "reason": "Can't wait to have you in my kingdom",
+  "file": "/music/knackam.mp3",
+  "cover": "/music/knackam.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69adc628e39a83d5fe2ab5f3"
+  },
+  "title": "Malaika",
+  "artist": "Nyashinski",
+  "reason": "God really did take his time when it came to you",
+  "file": "/music/malaika.mp3",
+  "cover": "/music/malaika.jpeg"
+},
+{
+  "_id": {
+    "$oid": "69adc70fe39a83d5fe2ab5f5"
+  },
+  "title": "More Than A Friend",
+  "artist": "PSquare",
+  "reason": "I don't just wanna be your friend, I want a front row seat to experience life with you",
+  "file": "/music/morethanafriend.mp3",
+  "cover": "/music/morethanafriend.jpeg"
+}]

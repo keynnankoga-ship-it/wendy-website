@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">Gallery</div>
+  <a href="/">Back</a>
+</nav>
+
+<h2 style="text-align:center;margin:20px 0;">Our Memories</h2>
+
+<div class="gallery" id="galleryContainer"></div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" style="display:none;">
+  <img src="" id="lightbox-img">
+</div>
+
+<script>
+
+/* =========================
+   LOAD GALLERY IMAGES
+========================= */
+function loadGallery() {
+
+  const container = document.getElementById("galleryContainer");
+  container.innerHTML = "";
+
+  const totalPhotos = 24; // number of images in folder
+
+  for (let i = 1; i <= totalPhotos; i++) {
+
+    const img = document.createElement("img");
+    img.src = `/gallery/gallery${i}.jpeg`;
+    img.alt = "Gallery Photo";
+    img.style.cursor = "pointer";
+
+    img.addEventListener("click", () => {
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+
+      lightbox.style.display = "flex";
+      lightboxImg.src = img.src;
+    });
+
+    container.appendChild(img);
+  }
+}
+
+/* =========================
+   CLOSE LIGHTBOX
+========================= */
+document.getElementById("lightbox").addEventListener("click", () => {
+  document.getElementById("lightbox").style.display = "none";
+});
+
+
+/* =========================
+   SWIPE / DRAG SCROLL
+========================= */
+function enableSwipeGallery() {
+
+  const gallery = document.getElementById("galleryContainer");
+
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  gallery.addEventListener("mousedown", (e) => {
+    isDown = true;
+    startX = e.pageX - gallery.offsetLeft;
+    scrollLeft = gallery.scrollLeft;
+  });
+
+  gallery.addEventListener("mouseleave", () => {
+    isDown = false;
+  });
+
+  gallery.addEventListener("mouseup", () => {
+    isDown = false;
+  });
+
+  gallery.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+
+    e.preventDefault();
+
+    const x = e.pageX - gallery.offsetLeft;
+    const walk = (x - startX) * 2;
+
+    gallery.scrollLeft = scrollLeft - walk;
+  });
+}
+
+
+/* =========================
+   INIT
+========================= */
+document.addEventListener("DOMContentLoaded", () => {
+
+  loadGallery();
+  enableSwipeGallery();
+
+});
+
+</script>
+
+</body>
+</html>
